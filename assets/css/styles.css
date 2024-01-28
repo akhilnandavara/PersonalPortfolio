@@ -1040,7 +1040,7 @@ img {
 
 @keyframes animate {
   0%,100%{
-      border-radius: 48% 52% 47% 53% / 27% 32% 68% 73%!important;
+      border-radius: 48% 52% 47% 53% / 27% 32% 68% 73%;
   }
   50%{
       border-radius: 45% 49% 46% 55% / 25% 31% 67% 72%;

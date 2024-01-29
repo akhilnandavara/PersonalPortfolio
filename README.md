@@ -27,7 +27,7 @@ Welcome to my personal portfolio! 🚀 Explore my skills, projects, and a glimps
 ## Screenshots
 
 ![GitHub-Mark-Dark ](assets/img/portfolioPoster_dark.png#gh-dark-mode-only)
-![GitHub-Mark-Light ](assets/img/portfolioPoster_dark.png#gh-light-mode-only)
+![GitHub-Mark-Light ](assets/img/portfolioPoster.png#gh-light-mode-only)
 
 <!-- Add more screenshots if necessary -->
 

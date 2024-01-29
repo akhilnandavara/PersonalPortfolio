@@ -1,12 +1,20 @@
-# Akhil N's Portfolio
+# Akhil Nandavara's Portfolio
 
 Welcome to my personal portfolio! 🚀 Explore my skills, projects, and a glimpse of who I am as a web developer.
 
+
+## Screenshots
+
+![GitHub-Mark-Dark ](assets/img/portfolioPoster_dark.png#gh-dark-mode-only)
+![GitHub-Mark-Light ](assets/img/portfolioPoster.png#gh-light-mode-only)
+
 ## Features
 
-- **Swiper Integration:** Engage with a smooth and interactive experience, showcasing my projects using the Swiper library.
-- **Typing Animation:** Dynamic content presentation with a typing animation, adding a touch of personality to the portfolio.
-- **FontAwesome and Iconscout Icons:** Utilizing FontAwesome and Iconscout icons to enhance visual appeal and provide a seamless user experience.
+- **Fully Responsive** 
+- **Dark And Light mode endabled** 
+- **Swiper Integration** 
+- **Typing Animation** 
+- **FontAwesome and Iconscout Icons** 
 
 ## Technologies Used
 
@@ -23,13 +31,6 @@ Welcome to my personal portfolio! 🚀 Explore my skills, projects, and a glimps
 1. Clone the repository: `git clone https://github.com/akhilnandavara/PersonalPortfolio.git`
 2. Open `index.html` in your preferred web browser.
 3. Explore my projects, skills, and get to know me!
-
-## Screenshots
-
-![GitHub-Mark-Dark ](assets/img/portfolioPoster_dark.png#gh-dark-mode-only)
-![GitHub-Mark-Light ](assets/img/portfolioPoster.png#gh-light-mode-only)
-
-<!-- Add more screenshots if necessary -->
 
 ## Contact
 

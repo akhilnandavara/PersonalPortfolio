@@ -158,11 +158,11 @@ const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dar
 const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun'
 
 // We validate if the user previously choosen this theme
-// if (selectedTheme) {
-//   // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
-//   document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
-//   themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
-// }
+if (selectedTheme) {
+  // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
+  document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
+  themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
+}
 
 //change default sytem theme
     if(darkThemeMq.matches){
@@ -172,9 +172,10 @@ const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-mo
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
     }
+   
     if(!darkThemeMq.matches){
-    document.body.classList.toggle(darkTheme)
-    themeButton.classList.toggle(iconTheme)
+        document.body.classList.remove(darkTheme)
+        themeButton.classList.remove(iconTheme)
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())

@@ -532,7 +532,7 @@ img {
 .qualification_data {
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
-  column-gap: 1.5rem;
+  column-gap: .8rem;
 }
 
 .qualification_title {
@@ -865,8 +865,8 @@ img {
     grid-template-columns: .6fr;
     justify-content: center;
   }
-  .qualification_data{
-    column-gap: 15px;
+  .qualification_data > div {
+    column-gap: 0rem;
   }
   
 }

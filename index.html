@@ -519,17 +519,16 @@
 
           <!--====================  PROJECTS 2 ====================-->
           <div class="portfolio_content grid swiper-slide">
-            <picture>
-              <source srcset="/assets/img/portfolioPoster_dark.png" media="(prefers-color-scheme:dark)"  class="portfolio_img">
-              <img  alt="portfolio_img"  class="portfolio_img" id="project2_img">
-            </picture>
+            <video class="portfolio_img" loop onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+              <source src="./assets/img/CraveDeals.mp4" >
+            </video>
            
             <div class="portfolio_data">
-              <h3 class="portfolio_title">Personal Portfolio</h3>
+              <h3 class="portfolio_title">CraveDeals</h3>
 
-              <p class="portfolio_description">Website adaptable to all devices and animated interactions</p>
+              <p class="portfolio_description">A Place to  Finds best deals from your favorite restaurants</p>
 
-              <a href="https://studynotion-edutechlearning.onrender.com/" class="button button-flex button--small portfolio__button">
+              <a href="https://cravedeals.vercel.app/" class="button button-flex button--small portfolio__button">
                 Check out
                 <i class="uil uil-arrow-right button__icon"></i>
               </a>

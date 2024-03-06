@@ -85,7 +85,7 @@ workHeader.addEventListener('click', () => {
 
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiper = new Swiper(".mySwiper", {
+let swiper = new Swiper(".swiper", {
     cssMode: true,
     loop:true,
     navigation: {
@@ -98,6 +98,8 @@ let swiper = new Swiper(".mySwiper", {
     },
     direction:"horizontal",
     mousewheel: true,
+    speed: 800, // Adjust the speed (in milliseconds)
+    effect: "slide",
     keyboard: true,
   });
 

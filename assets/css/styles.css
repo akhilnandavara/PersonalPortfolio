@@ -635,6 +635,17 @@ img {
   transform: translateX(.25rem);
 }
 
+.swiper-container {
+  /* Prevent blue highlight on touch */
+  -webkit-tap-highlight-color: transparent;
+  /* Prevent selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .swiper-button-prev::after,
 .swiper-button-next::after{
   content: '';

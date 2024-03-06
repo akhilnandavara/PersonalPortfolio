@@ -5,6 +5,8 @@
 :root {
   --header-height: 3rem;
 
+
+
   /*========== Colors ==========*/
   /* Change favorite color */
   --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
@@ -55,6 +57,9 @@
   --z-fixed: 100;
   --z-modal: 1000;
 }
+
+
+
 
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
@@ -109,10 +114,18 @@ body.dark-theme{
 html {
   scroll-behavior: smooth;
 }
+/* Define the styles for the text selection */
 ::selection {
   background-color: #8d8d8d;
   color: #fff;
 }
+
+/* Define the styles for the highlighted text in Firefox */
+::-moz-selection {
+  background-color: #8d8d8d;
+  color: #fff;
+}
+
 
 body {
   margin: 0 0 var(--header-height);
@@ -592,7 +605,7 @@ img {
 }
 
 .portfolio_img{
-  width: 300px;
+  width: 200px;
   border-radius: .5rem;
   justify-self: center;
   object-fit: cover;
@@ -849,6 +862,7 @@ img {
   }
   .home_img{
     order: 1;
+    
     justify-self: center;
   }
   .about_container,
